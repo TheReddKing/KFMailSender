@@ -16,7 +16,7 @@ typedef enum : NSUInteger {
     KFMailInfoAll = (1 >> 5) - 1,
 } KFMailInfo;
 
-@interface KFMailSender : NSObject <MFMailComposeViewControllerDelegate>
+@interface KFMailSender : NSObject <MFMailComposeViewControllerDelegate,UINavigationControllerDelegate>
 
 + (KFMailSender*) initMailControllerWithParentViewController: (UIViewController*) viewController;
 - (KFMailSender*) setSubject: (NSString*) subject message: (NSString*) message andTo: (NSArray*) recipients sendInfo: (KFMailInfo) info;
