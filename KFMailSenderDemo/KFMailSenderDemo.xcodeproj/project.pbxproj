@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA3B4A71C38BF9B009BFF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3B4A61C38BF9B009BFF0A /* main.m */; };
+		0AA3B4AA1C38BF9B009BFF0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3B4A91C38BF9B009BFF0A /* AppDelegate.m */; };
+		0AA3B4AD1C38BF9B009BFF0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3B4AC1C38BF9B009BFF0A /* ViewController.m */; };
+		0AA3B4B01C38BF9B009BFF0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3B4AE1C38BF9B009BFF0A /* Main.storyboard */; };
+		0AA3B4B21C38BF9B009BFF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3B4B11C38BF9B009BFF0A /* Assets.xcassets */; };
+		0AA3B4B51C38BF9B009BFF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3B4B31C38BF9B009BFF0A /* LaunchScreen.storyboard */; };
+		0AA3B4C01C38BF9B009BFF0A /* KFMailSenderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3B4BF1C38BF9B009BFF0A /* KFMailSenderDemoTests.m */; };
+		0AA3B4CB1C38BF9B009BFF0A /* KFMailSenderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3B4CA1C38BF9B009BFF0A /* KFMailSenderDemoUITests.m */; };
+		0AA3B4DB1C38C05D009BFF0A /* KFMailSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3B4DA1C38C05D009BFF0A /* KFMailSender.m */; };
+		0AA3B4DD1C38DA88009BFF0A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA3B4DC1C38DA88009BFF0A /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AA3B4BC1C38BF9B009BFF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA3B49A1C38BF9B009BFF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA3B4A11C38BF9B009BFF0A;
+			remoteInfo = KFMailSenderDemo;
+		};
+		0AA3B4C71C38BF9B009BFF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA3B49A1C38BF9B009BFF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA3B4A11C38BF9B009BFF0A;
+			remoteInfo = KFMailSenderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA3B4A21C38BF9B009BFF0A /* KFMailSenderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFMailSenderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA3B4A61C38BF9B009BFF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AA3B4A81C38BF9B009BFF0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AA3B4A91C38BF9B009BFF0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AA3B4AB1C38BF9B009BFF0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AA3B4AC1C38BF9B009BFF0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AA3B4AF1C38BF9B009BFF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AA3B4B11C38BF9B009BFF0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AA3B4B41C38BF9B009BFF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AA3B4B61C38BF9B009BFF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA3B4BB1C38BF9B009BFF0A /* KFMailSenderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFMailSenderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA3B4BF1C38BF9B009BFF0A /* KFMailSenderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFMailSenderDemoTests.m; sourceTree = "<group>"; };
+		0AA3B4C11C38BF9B009BFF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA3B4C61C38BF9B009BFF0A /* KFMailSenderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFMailSenderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA3B4CA1C38BF9B009BFF0A /* KFMailSenderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFMailSenderDemoUITests.m; sourceTree = "<group>"; };
+		0AA3B4CC1C38BF9B009BFF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA3B4D91C38C05D009BFF0A /* KFMailSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFMailSender.h; sourceTree = "<group>"; };
+		0AA3B4DA1C38C05D009BFF0A /* KFMailSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFMailSender.m; sourceTree = "<group>"; };
+		0AA3B4DC1C38DA88009BFF0A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA3B49F1C38BF9B009BFF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA3B4DD1C38DA88009BFF0A /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA3B4B81C38BF9B009BFF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA3B4C31C38BF9B009BFF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA3B4991C38BF9B009BFF0A = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4A41C38BF9B009BFF0A /* KFMailSenderDemo */,
+				0AA3B4BE1C38BF9B009BFF0A /* KFMailSenderDemoTests */,
+				0AA3B4C91C38BF9B009BFF0A /* KFMailSenderDemoUITests */,
+				0AA3B4A31C38BF9B009BFF0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA3B4A31C38BF9B009BFF0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4A21C38BF9B009BFF0A /* KFMailSenderDemo.app */,
+				0AA3B4BB1C38BF9B009BFF0A /* KFMailSenderDemoTests.xctest */,
+				0AA3B4C61C38BF9B009BFF0A /* KFMailSenderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA3B4A41C38BF9B009BFF0A /* KFMailSenderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4D81C38C05D009BFF0A /* KFMailSender */,
+				0AA3B4A81C38BF9B009BFF0A /* AppDelegate.h */,
+				0AA3B4A91C38BF9B009BFF0A /* AppDelegate.m */,
+				0AA3B4AB1C38BF9B009BFF0A /* ViewController.h */,
+				0AA3B4AC1C38BF9B009BFF0A /* ViewController.m */,
+				0AA3B4AE1C38BF9B009BFF0A /* Main.storyboard */,
+				0AA3B4B11C38BF9B009BFF0A /* Assets.xcassets */,
+				0AA3B4B31C38BF9B009BFF0A /* LaunchScreen.storyboard */,
+				0AA3B4B61C38BF9B009BFF0A /* Info.plist */,
+				0AA3B4DC1C38DA88009BFF0A /* MessageUI.framework */,
+				0AA3B4A51C38BF9B009BFF0A /* Supporting Files */,
+			);
+			path = KFMailSenderDemo;
+			sourceTree = "<group>";
+		};
+		0AA3B4A51C38BF9B009BFF0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4A61C38BF9B009BFF0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AA3B4BE1C38BF9B009BFF0A /* KFMailSenderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4BF1C38BF9B009BFF0A /* KFMailSenderDemoTests.m */,
+				0AA3B4C11C38BF9B009BFF0A /* Info.plist */,
+			);
+			path = KFMailSenderDemoTests;
+			sourceTree = "<group>";
+		};
+		0AA3B4C91C38BF9B009BFF0A /* KFMailSenderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4CA1C38BF9B009BFF0A /* KFMailSenderDemoUITests.m */,
+				0AA3B4CC1C38BF9B009BFF0A /* Info.plist */,
+			);
+			path = KFMailSenderDemoUITests;
+			sourceTree = "<group>";
+		};
+		0AA3B4D81C38C05D009BFF0A /* KFMailSender */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3B4D91C38C05D009BFF0A /* KFMailSender.h */,
+				0AA3B4DA1C38C05D009BFF0A /* KFMailSender.m */,
+			);
+			name = KFMailSender;
+			path = ../../KFMailSender;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AA3B4A11C38BF9B009BFF0A /* KFMailSenderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA3B4CF1C38BF9B009BFF0A /* Build configuration list for PBXNativeTarget "KFMailSenderDemo" */;
+			buildPhases = (
+				0AA3B49E1C38BF9B009BFF0A /* Sources */,
+				0AA3B49F1C38BF9B009BFF0A /* Frameworks */,
+				0AA3B4A01C38BF9B009BFF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFMailSenderDemo;
+			productName = KFMailSenderDemo;
+			productReference = 0AA3B4A21C38BF9B009BFF0A /* KFMailSenderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AA3B4BA1C38BF9B009BFF0A /* KFMailSenderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA3B4D21C38BF9B009BFF0A /* Build configuration list for PBXNativeTarget "KFMailSenderDemoTests" */;
+			buildPhases = (
+				0AA3B4B71C38BF9B009BFF0A /* Sources */,
+				0AA3B4B81C38BF9B009BFF0A /* Frameworks */,
+				0AA3B4B91C38BF9B009BFF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA3B4BD1C38BF9B009BFF0A /* PBXTargetDependency */,
+			);
+			name = KFMailSenderDemoTests;
+			productName = KFMailSenderDemoTests;
+			productReference = 0AA3B4BB1C38BF9B009BFF0A /* KFMailSenderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AA3B4C51C38BF9B009BFF0A /* KFMailSenderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA3B4D51C38BF9B009BFF0A /* Build configuration list for PBXNativeTarget "KFMailSenderDemoUITests" */;
+			buildPhases = (
+				0AA3B4C21C38BF9B009BFF0A /* Sources */,
+				0AA3B4C31C38BF9B009BFF0A /* Frameworks */,
+				0AA3B4C41C38BF9B009BFF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA3B4C81C38BF9B009BFF0A /* PBXTargetDependency */,
+			);
+			name = KFMailSenderDemoUITests;
+			productName = KFMailSenderDemoUITests;
+			productReference = 0AA3B4C61C38BF9B009BFF0A /* KFMailSenderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA3B49A1C38BF9B009BFF0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kevin Fang";
+				TargetAttributes = {
+					0AA3B4A11C38BF9B009BFF0A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					0AA3B4BA1C38BF9B009BFF0A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0AA3B4A11C38BF9B009BFF0A;
+					};
+					0AA3B4C51C38BF9B009BFF0A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0AA3B4A11C38BF9B009BFF0A;
+					};
+				};
+			};
+			buildConfigurationList = 0AA3B49D1C38BF9B009BFF0A /* Build configuration list for PBXProject "KFMailSenderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AA3B4991C38BF9B009BFF0A;
+			productRefGroup = 0AA3B4A31C38BF9B009BFF0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA3B4A11C38BF9B009BFF0A /* KFMailSenderDemo */,
+				0AA3B4BA1C38BF9B009BFF0A /* KFMailSenderDemoTests */,
+				0AA3B4C51C38BF9B009BFF0A /* KFMailSenderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA3B4A01C38BF9B009BFF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA3B4B51C38BF9B009BFF0A /* LaunchScreen.storyboard in Resources */,
+				0AA3B4B21C38BF9B009BFF0A /* Assets.xcassets in Resources */,
+				0AA3B4B01C38BF9B009BFF0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA3B4B91C38BF9B009BFF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA3B4C41C38BF9B009BFF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA3B49E1C38BF9B009BFF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA3B4AD1C38BF9B009BFF0A /* ViewController.m in Sources */,
+				0AA3B4AA1C38BF9B009BFF0A /* AppDelegate.m in Sources */,
+				0AA3B4DB1C38C05D009BFF0A /* KFMailSender.m in Sources */,
+				0AA3B4A71C38BF9B009BFF0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA3B4B71C38BF9B009BFF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA3B4C01C38BF9B009BFF0A /* KFMailSenderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA3B4C21C38BF9B009BFF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA3B4CB1C38BF9B009BFF0A /* KFMailSenderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA3B4BD1C38BF9B009BFF0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA3B4A11C38BF9B009BFF0A /* KFMailSenderDemo */;
+			targetProxy = 0AA3B4BC1C38BF9B009BFF0A /* PBXContainerItemProxy */;
+		};
+		0AA3B4C81C38BF9B009BFF0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA3B4A11C38BF9B009BFF0A /* KFMailSenderDemo */;
+			targetProxy = 0AA3B4C71C38BF9B009BFF0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AA3B4AE1C38BF9B009BFF0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA3B4AF1C38BF9B009BFF0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AA3B4B31C38BF9B009BFF0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA3B4B41C38BF9B009BFF0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B4CD1C38BF9B009BFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AA3B4CE1C38BF9B009BFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AA3B4D01C38BF9B009BFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KFMailSenderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddolution.KFMailSenderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AA3B4D11C38BF9B009BFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KFMailSenderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddolution.KFMailSenderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AA3B4D31C38BF9B009BFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KFMailSenderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddolution.KFMailSenderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFMailSenderDemo.app/KFMailSenderDemo";
+			};
+			name = Debug;
+		};
+		0AA3B4D41C38BF9B009BFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KFMailSenderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddolution.KFMailSenderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFMailSenderDemo.app/KFMailSenderDemo";
+			};
+			name = Release;
+		};
+		0AA3B4D61C38BF9B009BFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KFMailSenderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddolution.KFMailSenderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KFMailSenderDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0AA3B4D71C38BF9B009BFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KFMailSenderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddolution.KFMailSenderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KFMailSenderDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA3B49D1C38BF9B009BFF0A /* Build configuration list for PBXProject "KFMailSenderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B4CD1C38BF9B009BFF0A /* Debug */,
+				0AA3B4CE1C38BF9B009BFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA3B4CF1C38BF9B009BFF0A /* Build configuration list for PBXNativeTarget "KFMailSenderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B4D01C38BF9B009BFF0A /* Debug */,
+				0AA3B4D11C38BF9B009BFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AA3B4D21C38BF9B009BFF0A /* Build configuration list for PBXNativeTarget "KFMailSenderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B4D31C38BF9B009BFF0A /* Debug */,
+				0AA3B4D41C38BF9B009BFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AA3B4D51C38BF9B009BFF0A /* Build configuration list for PBXNativeTarget "KFMailSenderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B4D61C38BF9B009BFF0A /* Debug */,
+				0AA3B4D71C38BF9B009BFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA3B49A1C38BF9B009BFF0A /* Project object */;
+}
