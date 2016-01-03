@@ -51,7 +51,8 @@
     
     UIDevice* device = [UIDevice currentDevice];
     if(self.mail_info > 0) {
-        NSString * appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+        NSString *appName =  [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleNameKey];
+//        NSString * appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
         string = [[string stringByAppendingString:@"\n"] stringByAppendingString:appName];
     }
     if((self.mail_info & KFMailInfoAppVersion) > 0) {
