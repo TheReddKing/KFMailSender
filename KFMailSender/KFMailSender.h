@@ -10,10 +10,10 @@
 #import <MessageUI/MessageUI.h>
 
 typedef enum : NSUInteger {
-    KFMailInfoAppVersion = 1 >> 1,
-    KFMailInfoDeviceModelAndVersion = 1 >> 2,
-    KFMailInfoOtherInfo = 1 >> 3,
-    KFMailInfoAll = (1 >> 5) - 1,
+    KFMailInfoAppVersion = 1,
+    KFMailInfoDeviceModelAndVersion = 2,
+    KFMailInfoOtherInfo = 4,
+    KFMailInfoAll = 63,
 } KFMailInfo;
 
 @interface KFMailSender : NSObject <MFMailComposeViewControllerDelegate,UINavigationControllerDelegate>

@@ -63,10 +63,11 @@
     }
     if((self.mail_info & KFMailInfoDeviceModelAndVersion) > 0) {
         string = [[string stringByAppendingString:@"\n"] stringByAppendingString:[device model]];
-        string = [[string stringByAppendingString:@"\n Version: "] stringByAppendingString:[device systemVersion]];
+        string = [[string stringByAppendingString:@", iOS "] stringByAppendingString:[device systemVersion]];
     }
     
     self.mail_message = string;
+    [[self mailer] setMessageBody:self.mail_message isHTML:NO];
     [self.parent presentViewController:self.mailer animated:YES completion:nil];
 }
 - (void)mailComposeController:(MFMailComposeViewController *)controller
