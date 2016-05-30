@@ -32,6 +32,8 @@
     self.mail_message = message;
     self.mail_recipients = [NSMutableArray arrayWithArray:recipients];
     self.mail_info = info;
+    self.mailer.delegate = self;
+    self.mailer.mailComposeDelegate = self;
     
     [self.mailer setSubject:self.mail_subject];
     [self.mailer setToRecipients:self.mail_recipients];
@@ -43,11 +45,10 @@
         NSLog(@"MAIN VIEW CONTROLLER NOT DEFINED CAN'T SHOW");
         return;
     }
-    self.mailer.delegate = self;
     
     //Message
     
-    NSString* string = [self.mail_message stringByAppendingString:@"\n\n-------------------\n"];
+    NSString* string = [self.mail_message stringByAppendingString:@"\n\n\n\n\n\n-------------------\n\n"];
     
     UIDevice* device = [UIDevice currentDevice];
     if(self.mail_info > 0) {
